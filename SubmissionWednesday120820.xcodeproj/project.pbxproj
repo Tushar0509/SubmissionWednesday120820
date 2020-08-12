@@ -10,10 +10,13 @@
 		8D43A30824E3ADD000EF886B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D43A30724E3ADD000EF886B /* AppDelegate.swift */; };
 		8D43A30A24E3ADD000EF886B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D43A30924E3ADD000EF886B /* SceneDelegate.swift */; };
 		8D43A30C24E3ADD000EF886B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D43A30B24E3ADD000EF886B /* ViewController.swift */; };
-		8D43A30F24E3ADD000EF886B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D43A30D24E3ADD000EF886B /* Main.storyboard */; };
 		8D43A31224E3ADD000EF886B /* SubmissionWednesday120820.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D43A31024E3ADD000EF886B /* SubmissionWednesday120820.xcdatamodeld */; };
 		8D43A31424E3ADD300EF886B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D43A31324E3ADD300EF886B /* Assets.xcassets */; };
 		8D43A31724E3ADD300EF886B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D43A31524E3ADD300EF886B /* LaunchScreen.storyboard */; };
+		8D43A31F24E3B41B00EF886B /* InstagramCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D43A31E24E3B41B00EF886B /* InstagramCollectionViewCell.swift */; };
+		8D43A32324E3B52D00EF886B /* InstagramCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D43A32224E3B52D00EF886B /* InstagramCell.swift */; };
+		8D43A32524E3B56000EF886B /* YotutubeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D43A32424E3B56000EF886B /* YotutubeCollectionViewCell.swift */; };
+		8D43A32724E3B57000EF886B /* YoutubeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D43A32624E3B57000EF886B /* YoutubeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +24,14 @@
 		8D43A30724E3ADD000EF886B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D43A30924E3ADD000EF886B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8D43A30B24E3ADD000EF886B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D43A30E24E3ADD000EF886B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D43A31124E3ADD000EF886B /* SubmissionWednesday120820.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SubmissionWednesday120820.xcdatamodel; sourceTree = "<group>"; };
 		8D43A31324E3ADD300EF886B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D43A31624E3ADD300EF886B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D43A31824E3ADD300EF886B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D43A31E24E3B41B00EF886B /* InstagramCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCollectionViewCell.swift; sourceTree = "<group>"; };
+		8D43A32224E3B52D00EF886B /* InstagramCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCell.swift; sourceTree = "<group>"; };
+		8D43A32424E3B56000EF886B /* YotutubeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YotutubeCollectionViewCell.swift; sourceTree = "<group>"; };
+		8D43A32624E3B57000EF886B /* YoutubeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +67,10 @@
 				8D43A30724E3ADD000EF886B /* AppDelegate.swift */,
 				8D43A30924E3ADD000EF886B /* SceneDelegate.swift */,
 				8D43A30B24E3ADD000EF886B /* ViewController.swift */,
-				8D43A30D24E3ADD000EF886B /* Main.storyboard */,
+				8D43A32424E3B56000EF886B /* YotutubeCollectionViewCell.swift */,
+				8D43A32624E3B57000EF886B /* YoutubeCell.swift */,
+				8D43A31E24E3B41B00EF886B /* InstagramCollectionViewCell.swift */,
+				8D43A32224E3B52D00EF886B /* InstagramCell.swift */,
 				8D43A31324E3ADD300EF886B /* Assets.xcassets */,
 				8D43A31524E3ADD300EF886B /* LaunchScreen.storyboard */,
 				8D43A31824E3ADD300EF886B /* Info.plist */,
@@ -130,7 +139,6 @@
 			files = (
 				8D43A31724E3ADD300EF886B /* LaunchScreen.storyboard in Resources */,
 				8D43A31424E3ADD300EF886B /* Assets.xcassets in Resources */,
-				8D43A30F24E3ADD000EF886B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D43A30C24E3ADD000EF886B /* ViewController.swift in Sources */,
+				8D43A32724E3B57000EF886B /* YoutubeCell.swift in Sources */,
 				8D43A30824E3ADD000EF886B /* AppDelegate.swift in Sources */,
+				8D43A32324E3B52D00EF886B /* InstagramCell.swift in Sources */,
 				8D43A30A24E3ADD000EF886B /* SceneDelegate.swift in Sources */,
+				8D43A32524E3B56000EF886B /* YotutubeCollectionViewCell.swift in Sources */,
+				8D43A31F24E3B41B00EF886B /* InstagramCollectionViewCell.swift in Sources */,
 				8D43A31224E3ADD000EF886B /* SubmissionWednesday120820.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +163,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8D43A30D24E3ADD000EF886B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D43A30E24E3ADD000EF886B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8D43A31524E3ADD300EF886B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
